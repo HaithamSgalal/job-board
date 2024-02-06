@@ -17,8 +17,8 @@
                         Salary
                     </div>
                     <div class="flex space-x-2">
-                        <x-text-input name="min_salary" value="{{ request('min_salary')}}" placeholder="From" />
-                        <x-text-input name="max_salary" value="{{ request('max_salary')}}" placeholder="To" />
+                        <x-text-input name="min_salary" value="{{ request('min_salary') }}" placeholder="From" />
+                        <x-text-input name="max_salary" value="{{ request('min_salary')}}" placeholder="To" />
                     </div>
                 </div>
                 <div>
